@@ -9,19 +9,15 @@ function AddUser(props) {
     const imageChangeHandler = (event) => {
         setImage(event.target.value)
     }
-
     const nameChangeHandler = (event) => {
         setName(event.target.value)
     }
-
     const phoneChangeHandler = (event) => {
         setPhone(event.target.value)
     }
-
     const cellChangeHandler = (event) => {
         setCell(event.target.value)
     }
-
     const uuidChangeHandler = (event) => {
         setUuid(event.target.value)
     }
